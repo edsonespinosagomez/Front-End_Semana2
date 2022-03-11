@@ -1,0 +1,89 @@
+<style>
+.html,body{
+     /* Para que funcione correctamente en Smartphones y Tablets */
+     height:100vh;
+}
+body {
+     /* Ruta relativa o completa a la imagen */
+     background-image: url(fondo.jpg);
+     /* Centramos el fondo horizontal y verticalmente */
+     background-position: center center;
+     /* El fonde no se repite */
+     background-repeat: no-repeat;
+     /* Fijamos la imagen a la ventana para que no supere el alto de la ventana */
+     background-attachment: fixed;
+     /* El fonde se re-escala automáticamente */
+     background-size: cover;
+     /* Color de fondo si la imagen no se encuentra o mientras se está cargando */
+     background-color: #FFF;
+     /* Fuente para el texto */
+     text-align: center;
+     color: #000;
+     font-family: broadway; 
+}
+</style> 
+
+
+{
+	margin:0px;
+	padding:0px;
+	font-family: broadway; 
+}
+header{
+margin:100px auto;
+width:999px;
+height:230px;
+}
+
+div.contenedor{
+    width:230px;
+    height:200px;
+    float:left;
+    -webkit-transition:height .4s;
+}
+div#uno{
+    background-color:rgba(238, 130, 238,0.5);
+}
+div#dos{
+    background-color:rgba(245, 245, 220,0.5);
+}
+div#tres{
+        background-color:rgba(147, 112, 219,0.5);
+}
+div#cuatro{
+       background-color:rgba(255, 192, 203,0.5);
+}
+}
+p.texto{
+font-size: 1.2em;
+color:white;
+text-align: center;
+padding-top: 10px;
+opacity: .6;
+-webkit-transition: padding-top .4s;
+    
+}
+
+div.contenedor:hover{
+    height: 300px;
+}
+div.contenedor:hover p.texto{
+    padding-top: 30px;
+}
+.icon{
+    margin:auto;
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
